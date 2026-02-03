@@ -230,7 +230,8 @@ export default function Contact() {
                     <div className="flex gap-12 mt-8 md:mt-0">
                         {[
                             { name: 'GitHub', url: 'https://github.com/NiveshPole18' },
-                            { name: 'LinkedIn', url: 'https://www.linkedin.com/in/nivesh-pole-49b6a4203/' }
+                            { name: 'LinkedIn', url: 'https://www.linkedin.com/in/nivesh-pole-49b6a4203/' },
+                            { name: 'Email', url: 'mailto:niveshpole2@gmail.com' }
                         ].map((link, i) => (
                             <motion.a
                                 key={link.name}
